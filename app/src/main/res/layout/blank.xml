@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:text="Create a Place"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+
+            />
+        <EditText
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Country"
+            android:shadowColor="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Description"
+            android:shadowColor="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+           <Button
+               android:id="@+id/no"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="No"
+               android:background="#00000000"
+               android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:background="#00000000"
+                android:textColor="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+
+</LinearLayout>
